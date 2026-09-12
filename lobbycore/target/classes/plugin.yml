@@ -1,0 +1,13 @@
+name: LobbyCore
+main: fun.aexo.lobby.LobbyLoader
+version: 1.0.0
+api: ["1.0.0"]
+author: BitBinary
+description: Lobby Core System for Aexo Network
+depend: [LuckPerms]
+
+commands:
+  spawnnpc:
+    description: Spawn a Lobby Server NPC
+    permission: aexo.lobby.admin
+    usage: "/spawnnpc <serverName> <displayName>"

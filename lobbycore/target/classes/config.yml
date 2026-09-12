@@ -1,0 +1,24 @@
+# Lobby Config for AEXO NETWORK
+
+navigator:
+  title: "&l&5AEXO NETWORK &8• &dNAVIGATOR"
+  description: "&7Select a sub-server to connect to:"
+  servers:
+    Dominations:
+      name: "&l&eDOMINATION"
+      subtext: "&7Click to connect"
+      icon: "textures/items/bed_red.png"
+      ip: "aexo.fun"
+      port: 2000
+    sumo:
+      name: "&l&cSUMO"
+      subtext: "&7Click to play"
+      icon: "textures/items/diamond_sword.png"
+      ip: "aexo.fun"
+      port: 2000
+    skywars-ffa:
+      name: "&l&aSKYWARS FFA"
+      subtext: "&7Click to play"
+      icon: "textures/items/iron_pickaxe.png"
+      ip: "127.0.0.1"
+      port: 19134

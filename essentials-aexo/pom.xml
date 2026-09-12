@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>fun.aexo.essentials</groupId>
+    <artifactId>essentials-aexo</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+      <repositories>
+    <!-- Only needed for SNAPSHOT builds; release builds come from Maven Central -->
+    <repository>
+      <id>repo-lanink-cn</id>
+      <url>https://repo.lanink.cn/repository/maven-public/</url>
+    </repository>
+  </repositories>
+
+  <dependencies>
+    <!-- Release (recommended) -->
+    <dependency>
+      <groupId>com.nukkit-mot</groupId>
+      <artifactId>nukkit-mot</artifactId>
+      <version>1.26.30-R1</version>
+      <scope>provided</scope>
+    </dependency>
+    <!-- SNAPSHOT (development builds; requires the repository above)
+    <dependency>
+      <groupId>cn.nukkit</groupId>
+      <artifactId>Nukkit</artifactId>
+      <version>MOT-SNAPSHOT</version>
+      <scope>provided</scope>
+    </dependency>
+    -->
+  </dependencies>
+
+</project>

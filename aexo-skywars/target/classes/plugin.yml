@@ -1,0 +1,16 @@
+name: SkyWars
+main: fun.aexo.skywars.SkyWarsLoader
+version: 1.0.0
+api: ["1.0.0"]
+author: Celluiod
+
+commands:
+  hub:
+    description: Teleports you back to the AEXO Lobby
+    usage: /hub
+    aliases: [lobby, leave]
+
+permissions:
+  aexo.skywars.user:
+    default: true
+    description: Allows players to use basic SkyWars commands.

@@ -1,0 +1,15 @@
+# LobbyCore NPC Destination Mappings
+
+spawns:
+  boxpvp:
+    name: "&l&cSKYWARS"
+    ip: "127.0.0.1"
+    port: 19133
+  survival:
+    name: "&l&aSUMO"
+    ip: "127.0.0.1"
+    port: 19134
+  skywars:
+    name: "&l&eDOMINATIONS"
+    ip: "127.0.0.1"
+    port: 19135

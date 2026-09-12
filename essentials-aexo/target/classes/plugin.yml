@@ -1,0 +1,67 @@
+name: Essentials Aexo
+main: fun.aexo.essentials.Loader
+api: ["1.0.0"]
+version: "1.0.0"
+author: BitBinary
+description: Official Essential Plugin for Aexo Network [PRIVATE SOURCE]
+commands:
+  mute:
+    description: Mute a player from chat
+    permission: aexo.command.mute
+  unmute:
+    description: Unmute a player
+    permission: aexo.command.unmute
+  kick:
+    description: Kick a player from the server
+    permission: aexo.command.kick
+  ban:
+    description: Ban a player from the server
+    permission: aexo.command.ban
+  unban:
+    description: Unban a player
+    permission: aexo.command.unban
+  freeze:
+    description: Freeze a player in place
+    permission: aexo.command.freeze
+  unfreeze:
+    description: Unfreeze a player
+    permission: aexo.command.unfreeze
+  fly:
+    description: Toggle flight mode
+    permission: aexo.command.fly
+  sethub:
+    description: Set the world spawn point to your position
+    permission: aexo.command.sethub
+  hub:
+    description: Teleport to the server spawn
+    aliases: [spawn]
+  nick:
+    description: Change your name or auto-generate one
+    permission: aexo.command.nick
+  unnick:
+    description: Reset your nickname back to your real username
+    permission: aexo.command.nick
+  discord:
+    description: Get the link to our official Discord server
+    aliases: [dc]
+permissions:
+  aexo.command.mute:
+    default: true
+  aexo.command.unmute:
+    default: true
+  aexo.command.kick:
+    default: true
+  aexo.command.ban:
+    default: true
+  aexo.command.unban:
+    default: true
+  aexo.command.freeze:
+    default: true
+  aexo.command.unfreeze:
+    default: true
+  aexo.command.fly:
+    default: true
+  aexo.command.sethub:
+    default: true
+  aexo.command.nick:
+    default: true
