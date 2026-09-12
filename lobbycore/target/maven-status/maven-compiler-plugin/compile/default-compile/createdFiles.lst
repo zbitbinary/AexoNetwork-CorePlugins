@@ -1,0 +1,6 @@
+fun/aexo/lobby/LobbyLoader.class
+fun/aexo/lobby/npc/ServerNPC.class
+fun/aexo/lobby/managers/ServerNavigator.class
+fun/aexo/lobby/managers/RankManager.class
+fun/aexo/lobby/listeners/LobbyListener.class
+fun/aexo/lobby/listeners/NPCListener.class

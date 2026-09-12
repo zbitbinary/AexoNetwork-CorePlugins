@@ -1,0 +1,11 @@
+name: AexoLogo
+main: fun.aexo.logo.AexoLogoMain
+version: 1.0.0
+api: ["1.0.0"]
+author: Celluiod
+description: Standalone plugin for spawning floating 3D AEXO geometry logos and sub-text.
+
+permissions:
+  aexo.logo.admin:
+    default: op
+    description: Allows spawning and managing 3D logo entities.
